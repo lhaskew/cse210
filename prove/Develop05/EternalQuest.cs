@@ -8,7 +8,7 @@ namespace EternalQuest
     // Main Program
     class EternalQuest
     {
-        private List<Goal> goals;
+        private List<Goal> goals = new List<Goal>();
         private int totalScore;
 
         public EternalQuest()
