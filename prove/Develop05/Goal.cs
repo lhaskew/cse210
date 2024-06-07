@@ -1,9 +1,6 @@
-using System;
-
 namespace EternalQuest
 {
-    // Base class
-    abstract class Goal
+    public abstract class Goal
     {
         public string Name { get; set; }
         public int PointsPerEvent { get; set; }

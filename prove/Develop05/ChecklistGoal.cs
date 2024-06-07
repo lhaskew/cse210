@@ -1,9 +1,6 @@
-using System;
-
 namespace EternalQuest
 {
-    // Derived class for checklist goals
-    class ChecklistGoal : Goal
+    public class ChecklistGoal : Goal
     {
         public int TargetCount { get; set; }
         public int CurrentCount { get; set; }

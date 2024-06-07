@@ -2,8 +2,7 @@ using System;
 
 namespace EternalQuest
 {
-    // Derived class for eternal goals
-    class EternalGoal : Goal
+    public class EternalGoal : Goal
     {
         public EternalGoal(string name, int pointsPerEvent) : base(name, pointsPerEvent) { }
 

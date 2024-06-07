@@ -1,9 +1,6 @@
-using System;
-
 namespace EternalQuest
 {
-    // Derived class for simple goals
-    class SimpleGoal : Goal
+    public class SimpleGoal : Goal
     {
         public bool IsComplete { get; set; }
 
